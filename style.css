@@ -1,0 +1,94 @@
+body {
+    width: 1520px;
+    height: 700px;
+    border: 2px solid rgb(255, 0, 0);
+    font-family: sans-serif;
+}
+
+div.header {
+    margin: 10px;
+    border: 1px solid rgb(0, 255, 0);
+    text-align: center;
+}
+
+div.header h1 {
+    color: green;
+}
+
+div.header p {
+    color: red;
+}
+
+div.nav {
+    border: 2px solid rgb(55, 0, 158);
+    margin: 10px;
+}
+
+div.nav ul {
+    list-style-type: none;
+}
+
+div.nav li {
+    text-align: center;
+    display: inline;
+    margin-right: 10px;
+}
+
+div.flex {
+    display: flex;
+    height: 70%;
+}
+
+div.aside {
+    width: 27%;
+    margin: 10px;
+    border: 2px solid rgb(0, 4, 255);
+    text-align: center;
+}
+
+div.aside1 {
+    height: 46%;
+    margin: 10px;
+    display: block;
+    border: 2px solid rgb(255, 0, 212);
+}
+
+div.aside2 {
+    height: 46%;
+    margin: 10px;
+    display: block;
+    border: 2px solid rgb(255, 0, 212);
+}
+
+div.article {
+    width: 70%;
+    height: auto;
+    margin: 10px;
+    border: 2px solid rgb(255, 208, 0);
+}
+
+div.head {
+    width: 99%;
+    border: 2px solid rgb(255, 0, 0);
+    margin: 5px;
+    text-align: center;
+}
+
+div.section {
+    display: flex;
+    height: 80%;
+}
+
+div.section1 {
+    width: 54%;
+    border: 2px solid rgb(255, 0, 0);
+    margin: 5px;
+    text-align: center;
+}
+
+div.section2 {
+    width: 54%;
+    border: 2px solid rgb(255, 0, 0);
+    margin: 5px;
+    text-align: center;
+}
